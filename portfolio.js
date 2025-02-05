@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",function(){
   //Resume Download Button
   document.getElementById("downloadResume").addEventListener("click",function(){
-    const resumeURL= "My Resume .pdf";
+    const resumeURL= "MyResume.pdf";
     const link = document.createElement("a");
     link.href =resumeURL;
     link.download = "Sudan's_Resume.pdf";
