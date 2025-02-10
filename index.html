@@ -1,130 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="left">Sudan's Portfolio</div>
-        <div class="right">
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#AboutMe">About</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#ContactMe">Contact Me</a></li>
-            </ul> 
-        </div>
-      </nav>
-    </header>
-    <main>
-        <section class="firstSection" id="Home">
-            <div class="leftSection">Hi, My name is <span class="text-purple">Sudan</span> 
-                <div>and I am a passionate</div>
-                <span id="element"></span>
-                <div class="button">
-                  <button class="btn" id="downloadResume">Download Resume</button>
-                  <button class="btn" id="visitGithub">Vist Github</button>
-                </div>
-            </div>
-            <div class="rightSection">
-                <img src="PG.png" alt="">
-            </div>
-        </section>
-        <hr>
-        <section class="secondSection" id="Projects">
-            <span class="text-gray">What I have done so far</span>
-            <h1>Projects</h1>
-            <div class="box" >
-               <div class="vertical">
-                 <img class="image-top" src="Cshrap.png" alt="C#logo">
-                 <div class="vertical-title">
-                    Elevator Simulator 
-                 </div>
-                 <div class="vertical-desc">
-                  Using the C# programming language, an elevator simulator for a two-floor system was developed as part of a fourth-semester assignment, earning an A+ grade.
-                 </div>
-               </div>
-               <div class="vertical">
-                <img class="image-top" src="Mern logo.png" alt="Mern logo">
-                <div class="vertical-title">
-                   Banana Game 
-                </div>
-                <div class="vertical-desc">
-                  The project was developed using the MERN stack (React, Node.js, Express.js, and MongoDB), demonstrating proficiency in full-stack development. Utilizing the API provided by the university, a web-based game was successfully designed and implemented.
-                </div>
-              </div>
-              <div class="vertical">
-                <img class="image-top" src="Random-Forest-Algorithm.png" alt="Random-Forest-Algorithm">
-                <div class="vertical-title">
-                  Box office revenue prediction using random forest for web application
-                </div>
-                <div class="vertical-desc">
-                  In this project, a prediction model was developed using Python, and Flask was used to integrate it into a web application. The frontend was built with React, while the backend was powered by Node.js with Express.js handling routing. MongoDB served as the database, ensuring efficient data management.
-                </div>
-              </div>
-              <div class="vertical">
-                <img class="image-top" src="flutter logo.png" alt="Random-Forest-Algorithm">
-                <div class="vertical-title">
-                  Job link
-                </div>
-                <div class="vertical-desc">
-                  This application was built using Dart as the procedural programming language with Flutter as the UI toolkit, and Firebase served as the database. The app allowed employers to post job listings, while job seekers could apply for these positions. It was developed as part of an assignment during the fourth semester, using Android Studio as the IDE.
-                </div>
-              </div>
-            </div>
 
-        </section>
-        <hr>
-        <section class="thirdSection" id="AboutMe">
-          <h1>About</h1>
-          <div class="aboutme">
-            I am an eager and determined <b>BSc (Hons) in Computer Science and Software Engineering</b> student, passionate about leveraging technology to solve complex problems. Throughout my academic journey, I have gained hands-on experience working with <b>Java, Python, Flutter, MERN stack, and C#</b>, allowing me to develop a diverse skill set in software development. I thrive on exploring innovative solutions and continuously expanding my knowledge to stay ahead in the ever-evolving tech landscape.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Sudan's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#AboutMe">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#ContactMe">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection" id="Home">
+      <div class="leftSection">
+        <div> Hi, My name is <span class="text-purple">Sudan</span></div>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+        <div class="button">
+          <button class="btn" id="downloadResume">Download Resume</button>
+          <button class="btn" id="visitGithub">Vist Github</button>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="PG.png" alt="">
+      </div>
+    </section>
+    <hr>
+    <section class="secondSection" id="Projects">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Projects</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="Cshrap.png" alt="C#logo">
+          <div class="vertical-title">
+            Elevator Simulator
           </div>
-        </section>
-        <hr>
-        
-    </main>
-    <footer>
-      <div class="footer" id="ContactMe">
-        <div class="first">
-          <h3>Sudan's Developer Portfolio</h3>
+          <div class="vertical-desc">
+            Using the C# programming language, an elevator simulator for a two-floor system was developed as part of a
+            fourth-semester assignment, earning an A+ grade.
+          </div>
         </div>
-        <div class="second">
-          <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#AboutMe">About</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#ContactMe">Contact Me</a></li>
-        </ul> 
+        <div class="vertical">
+          <img class="image-top" src="Mern logo.png" alt="Mern logo">
+          <div class="vertical-title">
+            Banana Game
+          </div>
+          <div class="vertical-desc">
+            The project was developed using the MERN stack (React, Node.js, Express.js, and MongoDB), demonstrating
+            proficiency in full-stack development. Utilizing the API provided by the university, a web-based game was
+            successfully designed and implemented.
+          </div>
         </div>
-        <div class="third">
-          <ul>
-            <li>Contacts</li>
-            <li>Email: sudantandukar192@gmail.com</li>
-            <li>Github: <a href="https://github.com/tdksudan" target="_blank">https://github.com/tdksudan</a></li>
-          </ul>
+        <div class="vertical">
+          <img class="image-top" src="Random-Forest-Algorithm.png" alt="Random-Forest-Algorithm">
+          <div class="vertical-title">
+            Box office revenue prediction using random forest for web application
+          </div>
+          <div class="vertical-desc">
+            In this project, a prediction model was developed using Python, and Flask was used to integrate it into a
+            web application. The frontend was built with React, while the backend was powered by Node.js with Express.js
+            handling routing. MongoDB served as the database, ensuring efficient data management.
+          </div>
         </div>
-        
+        <div class="vertical">
+          <img class="image-top" src="flutter logo.png" alt="Random-Forest-Algorithm">
+          <div class="vertical-title">
+            Job link
+          </div>
+          <div class="vertical-desc">
+            This application was built using Dart as the procedural programming language with Flutter as the UI toolkit,
+            and Firebase served as the database. The app allowed employers to post job listings, while job seekers could
+            apply for these positions. It was developed as part of an assignment during the fourth semester, using
+            Android Studio as the IDE.
+          </div>
+        </div>
       </div>
-      <div class="footer-rights">
-        Copyright &#169; www.sudansportfolio.com | All rights reserved
+
+    </section>
+    <hr>
+    <section class="thirdSection" id="AboutMe">
+      <h1>About</h1>
+      <div class="aboutme">
+        I am an eager and determined <b>BSc (Hons) in Computer Science and Software Engineering</b> student, passionate
+        about leveraging technology to solve complex problems. Throughout my academic journey, I have gained hands-on
+        experience working with <b>Java, Python, Flutter, MERN stack, and C#</b>, allowing me to develop a diverse skill
+        set in software development. I thrive on exploring innovative solutions and continuously expanding my knowledge
+        to stay ahead in the ever-evolving tech landscape.
       </div>
-    </footer>
-    <script>var typed = new Typed('#element', {
-      strings: ['Web Developer', 'React Developer','Java Developer'],
+    </section>
+    <hr>
+
+  </main>
+  <footer>
+    <div class="footer" id="ContactMe">
+      <div class="first">
+        <h3>Sudan's Developer Portfolio</h3>
+      </div>
+      <div class="second">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#AboutMe">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#ContactMe">Contact Me</a></li>
+        </ul>
+      </div>
+      <div class="third">
+        <ul>
+          <li>Contacts</li>
+          <li>Email: sudantandukar192@gmail.com</li>
+          <li>Github: <a href="https://github.com/tdksudan" target="_blank">https://github.com/tdksudan</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-rights">
+      Copyright &#169; www.sudansportfolio.com | All rights reserved
+    </div>
+  </footer>
+  <script>var typed = new Typed('#element', {
+      strings: ['Web Developer', 'React Developer', 'Java Developer'],
       typeSpeed: 50,
     });</script>
-    <script src="portfolio.js"></script>
-  </body>
+  <script src="portfolio.js"></script>
+</body>
+
 </html>
